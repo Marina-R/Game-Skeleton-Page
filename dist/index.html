@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Game</title>
+	<meta charset="utf8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<section id='loading'>
+		<div id="image">
+			<img src="images/loading1.gif">
+		</div>
+	</section>
+	<section id='main'>
+		<div id="for-play">
+			<div id="play">
+				<a href="#play" id="play-button">Play</a>
+			</div>
+		</div>
+		<div id="for-settings">
+			<div id="leads"><a href="#leaderBoard" id="leaders">Leaderboard</a></div>
+			<div id="setts"><a href="#settings" id="mySettings">Settings</a></div>
+		</div>
+	</section>
+	<section id='game-page'>
+		<div class="title">GAME</div>
+		<a href="#exit" class="exit">
+			<img class="exit-button" src="images/exit.png">
+		</a>
+	</section>
+	<section id='leaders-page'>
+		<div class="title">Leaderboard</div>
+		<a href="#exit" class="exit">
+			<img class="exit-button" src="images/exit.png">
+		</a>
+	</section>
+	<section id='settings-page'>
+		<div class="title">Settings</div>
+		<a href="#exit" class="exit">
+			<img class="exit-button" src="images/exit.png">
+		</a>
+	</section>
+
+	<script type="text/javascript" src="bower_components/underscore/underscore-min.js"></script>
+	<script type="text/javascript" src="bower_components/backbone/backbone-min.js"></script>
+	<script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+	<script type="text/javascript" src="scripts/main.js"></script>
+</body>
+</html>
